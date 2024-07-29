@@ -1,11 +1,13 @@
+import br.com.alura.screenmatch.modelos.Filme;
+
 public class Principal
 {
     public static void main(String[] args)
     {
         Filme filme = new Filme();
-        filme.nome = "Top Gun: Maverick";
-        filme.anoDeLancamento = 2022;
-        filme.duracaoEmMinutos = 189;
+        filme.setNome("Top Gun: Maverick");
+        filme.setAnoDeLancamento(2022);
+        filme.setDuracaoEmMinutos(189);
 
         filme.exibeFichaTecnica();
         filme.avalia(8);
