@@ -11,8 +11,7 @@ public class Principal
         filme.avalia(8);
         filme.avalia(5);
         filme.avalia(10);
-        System.out.println(filme.somaDasAvaliacoes);
-        System.out.println(filme.totalDeAvaliacoes);
+        System.out.println(filme.getTotalDeAvaliacoes());
         System.out.printf("%.2f", filme.pegaMediaDasAvaliacoes());
     }
 }
